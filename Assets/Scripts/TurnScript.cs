@@ -9,7 +9,6 @@ public class TurnScript : MonoBehaviour {
     public Player player2;
     [HideInInspector]
     public Player activePlayer;
-
     public Text currentPlayer;
 
     // Player 1 always starts

@@ -25,14 +25,15 @@ public class resource : MonoBehaviour, IResource {
 
     public void subtractAmount(int amountToAdd)
     {
-        if(this.amount - amountToAdd <= 0)
-        {
-            this.amount -= amountToAdd;
-        }
-        else
-        {
-            Debug.Log("Not enough cash! Stranger");
-        }
+        this.amount -= amountToAdd;
+        //if(this.amount - amountToAdd <= 0)
+        //{
+        //    this.amount -= amountToAdd;
+        //}
+        //else
+        //{
+        //    Debug.Log("Not enough cash! Stranger");
+        //}
     }
 
 }

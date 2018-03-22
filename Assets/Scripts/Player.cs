@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public resource resource;
+    public int amountToAdd;
+    
+
+    public void addAmount(int amountToAdd)
+    {
+        resource.addAmount(amountToAdd);
+    }
+
+    public void subtractAmount(int amountToAdd)
+    {
+        resource.subtractAmount(amountToAdd);
+    }
+
 }
